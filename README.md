@@ -4,4 +4,4 @@
 - Start redis-server
 - create a virtual environment (if needed)
 - do ```pip3 install -r requirements.txt```
-- to start the server ```python3 rate_limiter_app/server.py```
+- to start the server ```python3 server.py```

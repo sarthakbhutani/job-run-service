@@ -1,8 +1,8 @@
-from utils.kafka import kafka_topic
+from app.utils.kafka import kafka_topic
 import asyncio
-from services.job_run_service import JobRunningService
-from utils.constants import TaskStatus
-from utils.logger import setup_logger
+from app.services.job_run_service import JobRunningService
+from app.utils.constants import TaskStatus
+from app.utils.logger import setup_logger
 logger = setup_logger()
 
 class TaskProcessingConsumer:

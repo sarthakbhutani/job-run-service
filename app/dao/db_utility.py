@@ -1,6 +1,6 @@
-from utils.db import licenses,jobs,tasks
-from utils.logger import setup_logger
-from utils.constants import JobStatus,TaskStatus
+from app.utils.db import licenses,jobs,tasks
+from app.utils.logger import setup_logger
+from app.utils.constants import JobStatus,TaskStatus
 logger = setup_logger()
 
 # Have made it a class, so that functions can be overriden.

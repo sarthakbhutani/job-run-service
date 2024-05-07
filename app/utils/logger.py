@@ -1,4 +1,4 @@
-from utils.settings import SERVICE_NAME,LOG_LEVEL
+from app.utils.settings import SERVICE_NAME,LOG_LEVEL
 import logging
 
 def setup_logger():

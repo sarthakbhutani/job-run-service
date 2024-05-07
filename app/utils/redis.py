@@ -1,7 +1,7 @@
 from redis import Redis
 import traceback
-from utils.settings import REDIS_HOST,REDIS_PORT
-from utils.logger import setup_logger
+from app.utils.settings import REDIS_HOST,REDIS_PORT
+from app.utils.logger import setup_logger
 logger = setup_logger()
 
 def setup_redis():

@@ -1,8 +1,8 @@
-from services.job_run_service import JobRunningService
-from consumers.task_processing_consumer import TaskProcessingConsumer
+from app.services.job_run_service import JobRunningService
+from app.consumers.task_processing_consumer import TaskProcessingConsumer
 import asyncio
-from utils.kafka import kafka_topic
-from utils.logger import setup_logger
+from app.utils.kafka import kafka_topic
+from app.utils.logger import setup_logger
 logger = setup_logger()
 
 """This is a driver function to the script

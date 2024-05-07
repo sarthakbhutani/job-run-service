@@ -1,10 +1,10 @@
 import traceback    
-from utils.logger import log_my_ass
-from utils.logger import setup_logger
-from utils.redis import setup_redis
-from utils.constants import RedisKeys,JobStatus,TaskStatus
-from utils.kafka import kafka_topic
-from dao.db_utility import DbUtility
+from app.utils.logger import log_my_ass
+from app.utils.logger import setup_logger
+from app.utils.redis import setup_redis
+from app.utils.constants import RedisKeys,JobStatus,TaskStatus
+from app.utils.kafka import kafka_topic
+from app.dao.db_utility import DbUtility
 logger = setup_logger()
 redis = setup_redis()
 
